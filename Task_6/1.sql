@@ -1,0 +1,7 @@
+SELECT *
+FROM Countries
+WHERE area < 500000
+UNION
+SELECT *
+FROM Countries
+WHERE area > 5000000
